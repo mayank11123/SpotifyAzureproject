@@ -1,0 +1,9 @@
+{
+	"name": "azuredatafactorymayank",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "4f33eda6-c205-4e98-9aee-6ce2247c9a48",
+		"tenantId": "25450869-1a4c-43d7-b55d-4420d7a79f5d"
+	}
+}
