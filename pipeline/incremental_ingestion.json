@@ -7,13 +7,13 @@
 				"type": "Copy",
 				"dependsOn": [
 					{
-						"activity": "last_cdc",
+						"activity": "current",
 						"dependencyConditions": [
-							"Skipped"
+							"Succeeded"
 						]
 					},
 					{
-						"activity": "current",
+						"activity": "last_cdc",
 						"dependencyConditions": [
 							"Succeeded"
 						]
